@@ -1,0 +1,70 @@
+---
+swagger: "2.0"
+info:
+  description: "dfdf"
+  version: "1.0"
+  title: "testing"
+  termsOfService: "http://swagger.io/terms/"
+  contact:
+    name: "api"
+    url: "http://swagger.io/sdfds/"
+    email: "apiteam@swagger.io"
+  license:
+    name: "sdsd"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "petstore.swagger.io"
+basePath: "/v1"
+tags:
+- name: "pet"
+  description: "pet"
+paths:
+  /post:
+    post:
+      tags: []
+      summary: "sdsd"
+      description: "sdsd"
+      operationId: "sdsd"
+      consumes: []
+      produces: []
+      parameters:
+      - in: "body"
+        name: "sdsd"
+        description: "sdsd"
+        required: true
+        schema: {}
+      responses:
+        200:
+          description: "sdsd"
+          schema:
+            type: "string"
+      x-swagger-router-controller: "Default"
+  /test:
+    post:
+      tags: []
+      summary: "assd"
+      description: "sdsd"
+      operationId: "dssd"
+      consumes: []
+      produces: []
+      parameters:
+      - in: "body"
+        name: "sdsd"
+        description: "dssd"
+        required: true
+      responses:
+        200:
+          description: "dfdf"
+          schema:
+            type: "string"
+      x-swagger-router-controller: "Default"
+definitions:
+  Arrayobj:
+    type: "array"
+    items:
+      type: "string"
+  Category:
+    type: "object"
+    properties:
+      Id:
+        type: "integer"
+        description: "sdsd"
